@@ -50,7 +50,7 @@ def stream_chat(model, messages):
     return response
 
 def main():
-    st.title("LLM 모델과 채팅하기 (피드백 안정형)")
+    st.title("LLM-Chatbot by EXAONE")
     model = st.sidebar.selectbox("모델 선택", ["exaone3.5:2.4b"])
 
     if st.sidebar.button("초기화"):

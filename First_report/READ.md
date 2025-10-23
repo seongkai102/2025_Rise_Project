@@ -1,8 +1,9 @@
 # 2025 라이즈 프로젝트-1
 
 # 주제: streamlit을 이용하여 chatbot대화 서비스 제작
-#### https://bigoutput.tistory.com/106 
-#### 해당 블로그를 참고 하여 제작 하였습니다.
+#### https://bigoutput.tistory.com/106 해당 블로그를 참고 하여 제작 하였습니다.
+
+
 
 # 구현 하고자 하는 목표
 
@@ -19,10 +20,10 @@ streamlit 실행전 환경 설정
 1. 아나콘다 설치(https://www.anaconda.com/download)
 2. conda 가상환경 생성(conda create -n Rstream python=3.10)
 3. https://github.com/seongkai102/2025_Rise_Project/tree/main/First_report을 방문하여 폴더 다운받기
-- git clone https://github.com/seongkai102/2025_Rise_Project.git
+    - git clone https://github.com/seongkai102/2025_Rise_Project.git
 4. 아래 명령어를 통해 라이브러리 설치 
-- pip install -r "requirements.txt"
-- 오류시 requirements.txt의 절대 경로 입력
+    - pip install -r "requirements.txt"
+    - 오류시 requirements.txt의 절대 경로 입력
 5. ollma 다운받기(https://ollama.com/download/windows)
 6. ollma 설치가 끝났다면 CMD실행후 - ollama pull exaone3.5:2.4b 입력
 
@@ -64,3 +65,6 @@ vsc를 실행 시킨후 streamlit run app.py를 하면
   </tbody>
 </table>
 </div>
+
+
+# 다만 컨테이너환경이라 페이지 새로 고침시 기존에 대화했던 정보가 사라진다.
