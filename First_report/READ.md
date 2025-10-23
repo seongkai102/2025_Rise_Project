@@ -42,20 +42,7 @@ vsc를 실행 시킨후 streamlit run app.py를 하면
 피드백을 입력하면 상태가 변경이 되고 CSV에 저장이 된다
 ![alt text](image-4.png)
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
